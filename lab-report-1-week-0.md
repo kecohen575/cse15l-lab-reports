@@ -1,2 +1,1 @@
-hey
-why wont this work
+![Image](lab1screenshot.png)
