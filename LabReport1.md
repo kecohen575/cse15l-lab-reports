@@ -13,3 +13,8 @@ To connect to a remote server you must use the 'ssh' command followed by what I 
 ![Image](RemoteAccess.png)
 
 Since I've already set up an SSH Key (we'll get to that soon), I am logged into the server immediately, but you should be prepared with the password needed.
+
+> ## Step 3: Trying Some Commands
+
+There are many useful commands that can be used both locally and remotely. For instance, the 'cd', 'ls', 'pwd', 'mkdir', and 'cp' commands that we are familiar with running locally work on a remote server as well. Another useful command is 'cat', which shows us what is inside a given file. This is what it looks like when used on the hello.txt file.
+
