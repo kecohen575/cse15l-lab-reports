@@ -26,3 +26,11 @@ We are also able to copy files from our computer to the remote server, which mea
 
 ![Image](CopyingToRemote.png)
 
+It's important to note a couple of things. You must be aware of where you are running the command from and whether you should provide a path to the file you are trying to copy. The other thing to note is that the ':~/' at the end of the command basically says to copy the file into the parent directory (i think).
+
+> ## Step 5: Setting an SSH Key
+
+To bypass the tedious process of inputting a password every time we access the remote server, we can utilize SSH Keys. On your computer (NOT on the remote server), use the command 'ssh-keygen' and choose an empty passphrase. Since I have already completed this step I cannot replicate it, so this is a screenshot from the course tutorial.
+
+
+
