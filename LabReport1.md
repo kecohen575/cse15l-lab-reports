@@ -39,3 +39,6 @@ Once that is completed, log back into the remote server and create the .ssh dire
 > ## Step 6: Optimizing Remote Running
 
 Now that we've set up a way to work remotely there are things we can do to optimize our work. For instance we can run 'ssh cs15lfa22@ieng6.ucsd.edu "ls"' to essentially login to the remote server and run ls in the home directory in just one command line. We can also run multiple commands in one line using semicolons as such: 'cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI'.
+
+![Image](RemoteServerLS.png)
+
