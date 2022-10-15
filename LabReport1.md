@@ -32,5 +32,10 @@ It's important to note a couple of things. You must be aware of where you are ru
 
 To bypass the tedious process of inputting a password every time we access the remote server, we can utilize SSH Keys. On your computer (NOT on the remote server), use the command 'ssh-keygen' and choose an empty passphrase. Since I have already completed this step I cannot replicate it, so this is a screenshot from the course tutorial.
 
+![Image](SSHKey.png)
 
+Once that is completed, log back into the remote server and create the .ssh directory using 'mkdir .ssh'. Then, on your computer again, you can run 'scp /Users/(your user)/.ssh/id_rsa.pub cs15lfa22(your id)@ieng6.ucsd.edu:~/.ssh/authorized_keys' to complete the process.
 
+> ## Step 6: Optimizing Remote Running
+
+Now that we've set up a way to work remotely there are things we can do to optimize our work. For instance we can run 'ssh cs15lfa22@ieng6.ucsd.edu "ls"' to essentially login to the remote server and run ls in the home directory in just one command line. We can also run multiple commands in one line using semicolons as such: 'cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI'.
