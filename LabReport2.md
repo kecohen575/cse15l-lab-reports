@@ -33,7 +33,8 @@ Addressing the bug found in the reverseInPlace method in ArrayExamples.java:
  
  Testing showed me that by changing the array it was running through it was losing elements it needed to access by the time it got to the end. 
  This was really confusing at first, so I had to run through the original code pretty thoroughly to see what was actually going wrong. 
- I added a temporary variable to keep track of elements so that they wouldn't be lost and changed two elements in one interation of the for loop rather than one.
+ I added a temporary variable to keep track of elements so that they wouldn't be lost and changed two elements in one interation of the for loop rather   than one.
  Because of this, I also had to halve the amount of iterations of the loop.
+ 
  ---
  Still stuck on the ListTests part of the lab. Going to office hours soon for clarification.
