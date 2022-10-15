@@ -8,4 +8,6 @@ I already had VSCode installed on my computer, but if you don't you can download
 
 > ## Step 2: Remotely Connecting
 
-To connect to a remote server you must use the 'ssh' command followed by what I believe to be the address of the remote server we are trying to access. For the purposes of CSE15L the command will look like this.
+To connect to a remote server you must use the 'ssh' command followed by what I believe to be the address of the remote server you are trying to access. For the purposes of CSE15L the command will look like this.
+
+Since I've already set up an SSH Key (we'll get to that soon), I am logged into the server immediately, but you should be prepared with the password needed.
