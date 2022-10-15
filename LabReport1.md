@@ -24,3 +24,5 @@ There are many useful commands that can be used both locally and remotely. For i
 
 We are also able to copy files from our computer to the remote server, which means that we can work locally and later upload it whatever server it needs to be on. We do this using the 'scp' command, which when copying the WhereAmI.java file to the remote server looks like this:
 
+![Image](CopyingToRemote.png)
+
