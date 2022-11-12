@@ -1,2 +1,2 @@
-# Lab Report 3 - Researching Commands
+# Lab Report 3 - Researching the 'find' Command
 
