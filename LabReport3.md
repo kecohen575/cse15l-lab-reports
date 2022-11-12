@@ -58,7 +58,43 @@ We can also combine what we've learned about the name option to delete specific 
 kevincohen@Kevins-MBP skill-demo1 % find ./technical/911report -name "chapter-13*" -delete
 ```
 
-> ## Option 3: '
+> ## Option 3: '-type'
+
+The '-type' option specifies what type of item we are looking for. For the purposes of a CS15l student, only the file (f) and directory (d) types are relavant to use, but in the future I imagine we will become familiar with other types as well. We could use this to find all the directories in ./technical.
+```
+kevincohen@Kevins-MBP skill-demo1 % find ./technical -type d
+./technical
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/plos
+./technical/biomed
+./technical/911report
+```
+We could also use this option to find all the regular files in the 911report directory. (Note how the Chapter 13 files are now gone since we deleted them earlier)
+```
+kevincohen@Kevins-MBP skill-demo1 % find ./technical/911report -type f
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+./technical/911report/chapter-8.txt
+./technical/911report/preface.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+```
+Lastly, we could combine this with the '-name' option as well if we are worried about files and directories having the same name.
+```
+kevincohen@Kevins-MBP skill-demo1 % find ./technical -type d -name 911report
+./technical/911report
+```
 
 
 
