@@ -42,7 +42,7 @@ kevincohen@Kevins-MBP skill-demo1 % find ./technical/911report -iname "cHaPTeR-1
 ./technical/911report/chapter-13.3.txt
 ```
 
-> ## Option 2: 'delete'
+> ## Option 2: '-delete'
 
 The 'delete' option is exactly what it seems--it deletes the specified files and directories. Using this option returns no output if successful and returns an error if not. Calling this deleted the Media directory and all the files inside it.
 ```
