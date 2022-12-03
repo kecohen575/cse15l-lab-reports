@@ -5,3 +5,5 @@
 [Lab Report 2](https://kecohen575.github.io/cse15l-lab-reports/LabReport2.html)
 
 [Lab Report 3](https://kecohen575.github.io/cse15l-lab-reports/LabReport3.html)
+
+[Lab Report 3](https://kecohen575.github.io/cse15l-lab-reports/LabReport4.html)
