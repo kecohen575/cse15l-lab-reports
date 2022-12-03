@@ -7,11 +7,11 @@ For the Week 6 lab, my group chose to change the main method to take a command-l
 ```
 After entering vim for DocSearch.java, typing /pars<Enter> brought me to this place in the code.
 
-  ![Image](:parse<Enter>.png)
+  ![Image](findparse<Enter>.png)
   
 Using y$ copies the rest of the line we're on, while /"<Enter> brings us here.
   
-  ![Image](:".png)
+  ![Image](find".png)
   
   Using d$ deletes the rest of the line, leaving us with this.
   
